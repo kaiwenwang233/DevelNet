@@ -1,0 +1,20 @@
+X_shape: [252, 387, 1]
+n_channel: 1
+Y_shape: [1, 387, 2]
+n_class: 2
+depths: 5
+filters_root: 8
+kernel_size: [3, 7]
+pool_size: [2, 4]
+dilation_rate: [1, 1]
+batch_size: 10
+class_weights: [1, 1, 1]
+loss_type: cross_entropy
+weight_decay: 0
+optimizer: adam
+learning_rate: 0.001
+decay_step: 2387
+decay_rate: 0.9
+momentum: 0.9
+summary: True
+drop_rate: 0
