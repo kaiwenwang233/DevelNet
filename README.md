@@ -6,3 +6,8 @@ python run.py --data_dir=./Films/197303  --data_list=./Films/197303/197303.csv -
 
 ## Write prediction results to txt file
 python3 predpicks.py
+
+## Earthquake examples
+Film scans from Rangely experiment(1973)
+images size 252*387
+in ./Films/197303 
