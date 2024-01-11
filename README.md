@@ -8,7 +8,7 @@ python run.py --data_dir=./Films/197303  --data_list=./Films/197303/197303.csv -
 python3 predpicks.py
 
 ## Earthquake examples
-Film scans from Rangely experiment(1973). Images size: 252*387 (in ./Films/197303)
+Film scans from Rangely experiment(1973). Images size: 252*387 (synthetics in training), 252*1100 (real film scans in ./Films/197303)
 
 ## Citation
 Kaiwen Wang, William Ellsworth, Gregory C. Beroza, Weiqiang Zhu, Justin L. Rubinstein; DevelNet: Earthquake Detection on Develocorder Films with Deep Learning: Application to the Rangely Earthquake Control Experiment. Seismological Research Letters 2022; doi: https://doi.org/10.1785/0220220066
